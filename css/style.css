@@ -1,0 +1,21 @@
+.title{
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin: 16px 0;
+}
+    
+.active img{
+    background-color: #558c51;
+}
+    
+.controls{
+    margin: 16px 0;
+}
+    
+.letters{
+    max-width: 150px;
+}
+
+.letter-selected{
+    max-width: 140px;
+}
