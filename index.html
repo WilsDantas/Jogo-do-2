@@ -25,15 +25,15 @@
         </div>
         <div class="row">
             <div class="col controls">
-                <button class="btn btn-success">Pular</button>
-                <button class="btn btn-primary">Finalizar Jogo</button>
-                <button class="btn btn-danger">Resetar</button>
+                <button class="btn btn-success" onclick="changePlayer()">Pular</button>
+                <button class="btn btn-primary" onclick="finishGame()">Finalizar Jogo</button>
+                <button class="btn btn-danger" onclick="resetGame()">Resetar</button>
             </div>
         </div>
         <hr>
         <div class="row">
             <div class="col">
-                <a>
+                <a href="#" onclick="selectLetter(event)">
                     <img src="assets/baralho-cartas.png" alt="Baralho" class="letters">
                 </a>
             </div>
@@ -43,7 +43,7 @@
         </div>
     </div>
 
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
